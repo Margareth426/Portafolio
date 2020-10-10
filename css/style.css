@@ -1,0 +1,246 @@
+body{
+    background-image: url("../img/fondo.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+@font-face{
+    font-family: euphorigenic;
+    src: url(euphorig.ttf);
+}
+*{
+    font-family: 'Euphorigenic', arial;
+}
+.fondo-head{
+    background: url("../img/logo-.jpg") center no-repeat;
+
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+}
+.bar-ini{
+    background-color: #FFFFFF;
+    opacity: 0.10;
+    height: 70px;
+}
+.bar-ini2{
+    background-color: #FFFFFF;
+    opacity: 0.10;
+    height: 45px;
+}
+.bar-ini3{
+    background-color: #ff9955;
+    opacity: 0.50;
+    height: 25px;
+}
+
+/* Clase para darle estilos a la barra de navegacion */
+
+.navbar-nav {
+    width: 100%;
+    text-align: right;
+
+  }
+
+  .navbar-nav > li {
+      float: none;
+      display: inline-block;
+    }
+
+h1{
+    font-size: 50px;
+    text-align: left;
+    
+}
+
+h2{
+    font-size: 40px;
+    text-align: left;
+}
+.img-ali{
+    text-align: center;
+}
+.imagen-logo{
+    width: 20em;
+}
+h3{
+    font-size: 35px;
+    text-align: center;
+    color: #800080;
+    margin-top: 2em;
+}
+.parrafo{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+.imagen-mar{
+    width: 30em;
+}
+
+.navbar-col {
+    background: #ffe580;
+    opacity: 0.95;
+    height: 70px;
+    border: none;
+    text-align: center;
+}
+nav.navbar ul.nav li {
+    font-family: 'Euphorigenic', arial;
+    font-size: 50px;
+}
+nav.navbar ul.nav li a{
+    color: #800080;
+}
+
+.formulario{
+    text-align: center;
+    margin-left: 4em;
+    margin-right: 40em;
+}
+
+
+
+
+
+.logo-img{
+    width: 150px
+}
+
+/* Clase para darle estilos al contenedor principal */
+.container-prin {
+    margin-top: 64px;
+}
+
+/* Clase para darle estilos al jumbotron */
+.jumbotron {
+    background: url("../img/cin.jpg") no-repeat center;
+    background-size: 100%;
+    min-height: 500px;
+    border-radius: 0px !important;
+    margin-bottom: 0px;
+}
+
+.welcome-title{
+    color: white;
+    margin-right: 10px;
+}
+
+.jumbotron-img{
+    margin-top: 20px;
+}
+
+.jumbotron-text{
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+
+.redes-sociales{
+    margin-top: 20px;
+}
+
+.img-social{
+    height: 40px;
+    width: 40px;
+}
+
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+.titulo-cartelera{
+    min-height: 45px;
+    background: #082D5E;
+    opacity: 0.95;
+}
+
+.titulo-text{
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
+/* Clase para darle estilos a las filas y/o a columas que contienes filas */
+.movies-row{
+    background: rgba(0, 0, 0, 0.8);
+    min-height: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.services-text {
+    color: #FFFFFF;
+    margin-top: 13px;
+  }
+
+.movie-title{
+    color: white;
+}
+
+.img-movies{
+    height: 260px;
+    padding: 6px;
+    margin-top: 22px;
+}
+
+/* Clase para darle estilos a las columnas*/
+.movies-column{
+    margin-top: 5px;
+    min-height: 330px;
+  
+}
+
+.left-column{
+    border-right: 1px dashed #ffffff;
+}
+
+.user_data{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.input-element{
+    width: 100%;
+    height: 28px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.label-class{
+    color: white;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.btn-save{
+    width: 40%;
+    background-color: rgba(42, 76, 187, 0.95);
+    color: #FFFFFF;
+}
+
+@media (max-width: 770px){
+    .rigth-column{
+        display: none;
+    }
+    .movies-row{
+        min-height: 250px;
+    }
+    .movies-column{
+        min-height: 230px;
+    }
+    .jumbotron{
+        min-height: 400px;
+    }
+    .jumbotron-img{
+        margin-top: 20px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+    .titulo-cartelera{
+        font-size: 15px;
+    }
+}
